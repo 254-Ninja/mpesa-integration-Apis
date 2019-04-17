@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     Button b1, b2;
     EditText edp, edu;
 
-    TextView txt;
+    TextView txt; 
     int counter = 3;
 
     @Override

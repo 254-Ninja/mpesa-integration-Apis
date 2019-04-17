@@ -5,38 +5,47 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+
     tools:context=".MainActivity">
 
     <EditText
         android:id="@+id/password"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
-        android:hint="password"/>
+        android:hint="password"
+        android:inputType="textPassword" />
 
     <EditText
-        android:id="@+id/username"
-        android:layout_width="wrap_content"
+        android:layout_width="422dp"
         android:layout_height="wrap_content"
-        android:hint="username"/>
+        android:hint="username" />
+
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/username"
+        android:layout_toRightOf="@+id/username"
         android:onClick="Login"
-        android:text="Login"/>
+        android:text="Login" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="Cancel"
-        android:text="Cancel"/>
+        android:text="Cancel" />
 
     <TextView
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Attempt Left" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lipa na Mpes" />
 
 </LinearLayout>
