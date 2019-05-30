@@ -9,6 +9,10 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+/**
+ * This page displays the main activity.
+ */
+
 
 public class MainActivity extends AppCompatActivity {
 
